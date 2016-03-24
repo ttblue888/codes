@@ -4,7 +4,7 @@ using namespace std;
 void quicksort(int *a,int l,int r)
 {
 	if (l >= r) return;
-	int i = l,j=r;
+	int i = l,j = r;
 	int t = a[i];
 	while (i!=j)
 	{
